@@ -26,19 +26,19 @@
 				overflow: hidden;
 			}
 			
-			#reset-btn{
+			.reset-btn{
 				position: absolute;
 				left: 15px;
 				bottom: 15px;
-				width: 40px;
-				height: 40px;
 				border: none;
 				border-radius: 50%;
 				background:#3B53A2;
 				font-size: 25px;
 				color: #fff;
 				z-index: 100;
-				padding: 0;
+				padding: 10px;
+				cursor: pointer;
+				text-align: center;
 			}
 			
 			#logo{
@@ -86,7 +86,7 @@
 
 	<body>
 		<div id="logo"><img src="../assets/images/logo_transparent.png" width="30%"></div>
-		<button id="reset-btn"><i class="fas fa-car"></i></button>
+		<a href="/v4/index.html" class="reset-btn"><i class="fas fa-car"></i></a>
 		<audio id="bgMusic" src="../assets/Music/jazzy-abstract-beat-11254 (mp3cut.net).mp3" loop></audio>
 		<audio id="engineSound" src="../assets/Music/free-sound-1674783268.mp3" loop></audio>
 		<script src="../libs/three.min.js"></script>

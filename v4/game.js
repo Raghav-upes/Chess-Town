@@ -78,11 +78,11 @@ this.rightKeyPressed = false;
 
 		//this.init();
 		//this.animate();
-		if ('ontouchstart' in window){
-			document.getElementById('reset-btn').addEventListener('touchstart', function(){ game.resetCar(); });
-		}else{
-			document.getElementById('reset-btn').onclick = function(){ game.resetCar(); };
-		}
+		// if ('ontouchstart' in window){
+		// 	document.getElementById('reset-btn').addEventListener('touchstart', function(){ game.resetCar(); });
+		// }else{
+		// 	document.getElementById('reset-btn').onclick = function(){ game.resetCar(); };
+		// }
 		
 		const preloader = new Preloader(options);
 		
